@@ -50,7 +50,7 @@ trait AclTrait {
 			'cacheKey' => 'tiny_auth_acl',
 			'autoClearCache' => null, // Set to true to delete cache automatically in debug mode, keep null for auto-detect
 			'filePath' => null, // Possible to locate INI file at given path e.g. Plugin::configPath('Admin')
-			'file' => 'acl.ini',
+			'file' => 'tinyauth_acl.ini',
 		];
 		$config = (array)Configure::read('TinyAuth') + $defaults;
 
