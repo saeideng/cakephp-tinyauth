@@ -53,3 +53,4 @@ script:
 
 notifications:
   email: false
+
